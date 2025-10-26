@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
     build: {
         manifest: true,
-        outDir: 'public/build',
+        outDir: '/public/build',
         input: ['resources/js/app.js']
     },
     plugins: [
